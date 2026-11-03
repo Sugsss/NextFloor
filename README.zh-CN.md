@@ -31,7 +31,7 @@
 
 <p align="center">🎬 <a href="https://therealmrbk.github.io/NextFloor/tutorial/">在浏览器里看安装视频，从空白页面开始（45 分钟，英语配音，中/英/德字幕）</a></p>
 
-<p align="center">📖 <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/manual.md">手册</a> · <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/anleitung.md">Anleitung（德语）</a> · 🗺️ <a href="https://github.com/therealMRBK/NextFloor/blob/main/ROADMAP.md">路线图</a> · 📝 <a href="https://github.com/therealMRBK/NextFloor/blob/main/CHANGELOG.md">更新日志</a></p>
+<p align="center">📖 <a href="https://github.com/Sugsss/NextFloor/blob/main/docs/manual.zh-CN.md">中文手册</a> · <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/manual.md">英文手册</a> · <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/anleitung.md">Anleitung（德语）</a> · 🗺️ <a href="https://github.com/therealMRBK/NextFloor/blob/main/ROADMAP.md">路线图</a> · 📝 <a href="https://github.com/therealMRBK/NextFloor/blob/main/CHANGELOG.md">更新日志</a></p>
 
 ---
 
