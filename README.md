@@ -29,6 +29,8 @@ No Pro version, no paid add-ons, no supporter pass, no licence key, no shop.</p>
 
 <p align="center">🎬 <a href="https://therealmrbk.github.io/NextFloor/tutorial/">Watch the setup video in your browser, from the empty page (45 min, English voice, subtitles en/de)</a></p>
 
+<p align="center">📖 <b>English</b> · <a href="https://github.com/Sugsss/NextFloor/blob/main/README.zh-CN.md">简体中文</a></p>
+
 <p align="center">📖 <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/manual.md">Manual</a> · <a href="https://github.com/therealMRBK/NextFloor/blob/main/docs/anleitung.md">Anleitung (Deutsch)</a> · 🗺️ <a href="https://github.com/therealMRBK/NextFloor/blob/main/ROADMAP.md">Roadmap</a> · 📝 <a href="https://github.com/therealMRBK/NextFloor/blob/main/CHANGELOG.md">Changelog</a></p>
 
 ---
@@ -37,25 +39,32 @@ No Pro version, no paid add-ons, no supporter pass, no licence key, no shop.</p>
 
 | | |
 |---|---|
-| ✏️ **Plan editor** | Floors, rooms, curved walls, doors, windows, shaped stairs, outdoor areas and roofs, drawn in Home Assistant with the 3D view beside the plan. Areas within a room, layers, inside sizes, wall thickness per part. |
+| ✏️ **Plan editor** | Floors, rooms, curved walls, doors, windows, shaped stairs, outdoor areas and roofs, drawn in Home Assistant with the 3D view beside the plan. Areas within a room, layers, inside sizes, wall thickness per part, **rooms open to the floor above**, turned roof sections, DXF import. |
+| ✓ **Plan check** | One list of what is missing or off – rooms without an area, devices not placed, overlapping rooms, doors off their wall, links to entities that are gone – standby eaters with their yearly cost – each with a fix in one tap. A short tour for a new plan and the sheet of keys (press `?`). |
+| 📐 **Areas & paper** | Living area per room, floor and house, counted like the German Wohnflächenverordnung; **the plan on paper** at 1:100 with measurements and a table of areas, to print or save as PDF. |
+| 🕘 **Versions & notes** | Named states of the plan ("before the renovation") that stay, compared with the plan now; **notes pinned to a spot**, with a due day, as pins in 3D and found by the search. |
 | 💡 **Live 3D** | Tap to switch, swipe to dim, long press for colours. Lamps with several bulbs, blinds (roller, venetian slats, inside blinds, Somfy *My*), windows and doors follow their entities; a room panel lists everything in the room, scenes first. |
 | ✨ **Light designer** | Save a room's lights as a mood, set it again with one tap, carry it over to another room. |
-| 🌡️ **Room climate** | Heat maps for temperature (summer and winter scale), humidity, CO₂ and **mould risk**, airing hints, each room's 24-hour temperature curve, underfloor heating that glows. |
-| ⚡ **Energy** | Solar fields (also east-west racks), power flow along real cable routes, battery charge on the unit, gas and water meters, the last 24 hours and **seven days** on the house card. |
+| 🌡️ **Room climate** | Heat maps for temperature (summer and winter scale), humidity, CO₂, **mould risk** and a **comfort score**, airing hints, low batteries, lights left on in empty rooms, each room's 24-hour temperature curve, underfloor heating that glows. |
+| ☀️ **Sun & power per room** | Heat maps for the **hours of sun** each room gets today through its windows (from the plan, its compass and the sun's path) and for **what each room draws now**; in the room panel also today's and this month's kWh and cost, the sun over the year, a **shade hint** when the sun heats a room and a hint when a window stands open while the heating runs. |
+| ⚡ **Energy** | Solar fields (also east-west racks), power flow along real cable routes, battery charge on the unit, gas and water meters, a meter per floor, the last 24 hours and **seven days** on the house card. |
+| 🤖 **Sensors for automations** | *Open windows and doors* and *Lights on* as Home Assistant sensors, for the house and every floor, with the entities in their attributes. **Everything off** per room or floor, with undo. |
 | 🔥 **Heat pump & 🖨️ 3D printer** | Live cards: flow and return, heat and COP; print progress, time left, layer, temperatures and filaments – the print grows on the bed. |
 | 🚗 **Car** | Charge, range, charging along its cable from the wallbox, departure time, distance away, open doors and hatches, lock and climate buttons. |
 | 📶 **Wi-Fi map** | Every access point's reach on the floor, its devices, and which network devices are offline. |
 | 📅 **Today** | The day's appointments and the bins due, on a card for the wall tablet. |
 | ⚠️ **Warnings** | Smoke, gas, water, the alarm with the sensor that set it off, windows open in the rain, contacts that stop answering – and **your own warnings** for any entity. |
 | 📢 **Announcements** | *"Dinner is ready!"* in the room that should hear it, through its speaker and on every open NextFloor screen. |
-| 🏡 **Household & garden** | Waste bins, mailbox, thirsty plants, pets that roam the room they really are in, robot vacuums and **robot mowers** on their lanes, sprinklers, pools with temperature and pump, gardens linked to their Home Assistant area. |
+| 🏡 **Household & garden** | Waste bins, mailbox, thirsty plants, pets that roam the room they really are in, robot vacuums and **robot mowers** on their lanes, sprinklers, pools with temperature and pump, gardens linked to their Home Assistant area, *🧹 Clean* per room, the fuse box's circuits per room. |
 | 📺 **Media** | TV screens with cover and ambilight; a quick menu for every speaker and TV with sources, volume and presets per speaker. |
 | 🛋️ **Furniture** | 40 basic models and **40 packs with almost 800 more** – season and decoration, wellness, music, loft, Japandi, workshop, vehicles, **picture frames with your own photos** – L- and U-sofas, IKEA sizes, Tesla models in their paint. Any piece can show only while a helper is on. |
 | 🚶 **Walk and time travel** | Walk through the house at eye level; replay the last hours or days. |
-| 🖥️ **Wall tablet ready** | Kiosk mode with night dimming, the star menu open and large, zoom and a kept camera for small screens, a light quality level for old tablets. |
+| 🖥️ **Wall tablet ready** | Kiosk mode with night dimming, the star menu open and large, zoom and a kept camera for small screens, **quality that steps down by itself** on slow tablets, an **easy-to-read** mode with stronger contrast and larger text. |
 | 🎨 **Fits your theme** | Colours, font and corner radius from Home Assistant; looks *Neon*, *Blueprint*, *Day*, solid painted walls. |
 | 🧩 **Card, plugins, languages** | `custom:nextfloor-card` with a visual editor, a plugin system with its own store, and nine languages. |
-| 🪑 **Build your own** | The [furniture builder](https://therealmrbk.github.io/NextFloor/builder/) and a community store, own `.glb` models, Sweet Home 3D import, a plan format an AI can write. |
+| 🪑 **Build your own** | The **🛠️ furniture studio right in the editor** (cabinets with doors and drawers, shelves, lamps, devices with a display), the [furniture builder](https://therealmrbk.github.io/NextFloor/builder/) and a community store, own `.glb` models, Sweet Home 3D and DXF import, a plan format an AI can write – and **share a view** of your house as a file that opens in any browser. |
+
+<p align="center"><img src="https://raw.githubusercontent.com/therealMRBK/NextFloor/main/docs/images/new-0-22.jpg" width="900" alt="New in 0.22: the furniture studio in the editor, the heat map by hours of sun with the room panel, the plan check, and the plan on paper with living areas"></p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/therealMRBK/NextFloor/main/docs/images/new-furniture.jpg" width="760" alt="A picture frame with an own photo, an L- and a U-shaped sofa, a 3D printer printing with its live card, and a home battery showing its charge"></p>
 
@@ -136,6 +145,7 @@ night: "off"            # optional: kiosk, dim at night: off | sun | "22:00-06:0
 idle_orbit: false       # optional: kiosk, slow camera turn after the idle return
 central_open: false     # optional: the star menu (favourites) open from the start and a size larger
 keep_camera: false      # optional: keep side, height and distance when switching floors
+readable: false         # optional: stronger contrast and larger text (wall tablets)
 zoom: 1                 # optional: 0.6 … 2.5, how close the fitted views come
 today: true             # optional: the "Today" card with appointments and bins
 sensor_bar: true        # optional: your own sensors at the top
